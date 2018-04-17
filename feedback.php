@@ -1,15 +1,8 @@
-
-
 <?php
 
-$q = $_REQUEST["q"];
+    $name = $_REQUEST["name"];
+    $about = $_REQUEST["about"];
 
-$name = "Kamil";
-
-if($q == "pull"){
-    echo $name;
-}
-
+    echo $name." ".$about;
 
 ?>
-
